@@ -1,0 +1,12 @@
+[package]
+name = "main_app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cubecl = { version = "0.11.0-pre.1", features = ["wgpu"] }
+#plugin_core = { path = "../plugin_core" }
+#libloading = "0.8"
+crossbeam-channel = "0.5"
+bytemuck = { version = "1.16", features = ["derive"] }
+massively = "0.96.0"
